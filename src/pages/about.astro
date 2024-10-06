@@ -55,7 +55,7 @@ const textCase = "uppercase";
       }
     </ul>
     <p>My skills are:</p>
-    <ul>
-      {skills.map((skill) => <li class="skill">{skill}</li>)}
+    <ul class="flex gap-4 pt-6">
+      {skills.map((skill) => <li class="px-6 py-3 border rounded-lg border-gray-300 bg-gray-200 flex items-center justify-center text-center text-nowrap">{skill}</li>)}
     </ul>
 
